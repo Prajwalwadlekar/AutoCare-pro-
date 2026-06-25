@@ -8,7 +8,7 @@ dotenv.config();
 
 // Connect to Supabase using the provided connection string.
 // We fallback to the user's provided direct connection string if DATABASE_URL is not explicitly set in the environment.
-const connectionString = process.env.DATABASE_URL || "postgresql://postgres:PVavjRmNicc5EKFU@db.ywhdwnddzkglztigxhcw.supabase.co:5432/postgres";
+const connectionString = process.env.DATABASE_URL || "postgresql://postgres:CarService%402026%23Secure@db.ywhdwnddzkglztigxhcw.supabase.co:5432/postgres";
 
 const pool = new Pool({
   connectionString,
